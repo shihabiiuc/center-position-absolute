@@ -18,9 +18,60 @@ img {
 }
 
 .container {
-  padding: 90px 15px;
-  background-color: #ffb13d;
+  padding: 30px 15px;
+  height: 600px;
+  background-color: #e8feff;
+  background-image: url("https://shihabiiuc.com/wp-content/uploads/2023/03/axis.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 .container .elements {
+  background-color: #dbfdff;
+  border: 1px solid #9af9fc;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .container .elements {
+    width: inherit;
+  }
+}
+.container .elements h2 {
+  color: #ff9800;
+  margin: 0 0 10px;
+}
+.container .elements p {
+  color: #222222;
+}
+.container .elements a {
   color: #ffffff;
+  background-color: #ff9800;
+  padding: 10px 20px;
+  border: 1px solid #d98202;
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.container-xy {
+  background-color: #ffd4fb;
+  position: relative;
+}
+.container-xy .elements-xy {
+  background-color: #fce1fa;
+  border: 1px solid #fff2fe;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
